@@ -98,17 +98,34 @@ header nav a:hover{
   border-bottom-color: rgba(20,184,166,.45);
 }
 
-/* Language select */
+/* Language selector */
 header select{
-  background: rgba(255,255,255,.06);
-  color: var(--text);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 10px 12px;
-  font-weight: 650;
-  outline:none;
-}
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 
+  background: rgba(255,255,255,.08);
+  color: #EAF0FF;
+
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: 12px;
+
+  padding: 10px 36px 10px 14px;
+  font-weight: 700;
+  font-size: 14px;
+
+  outline: none;
+  cursor: pointer;
+
+  /* arrow */
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%2024%2024%27%20width%3D%2720%27%20height%3D%2720%27%20fill%3D%27white%27%3E%3Cpath%20d%3D%27M7%2010l5%205%205-5z%27/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+header select option{
+  background: #ffffff;
+  color: #0B1220;
+}
 /* ================= HERO ================= */
 .hero{
   background:

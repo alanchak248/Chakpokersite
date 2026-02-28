@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>教練團隊 | Chak Poker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+    <div class="nav">
+
+        <div class="logo">
+            <img src="logo.jpeg" alt="Logo">
+        </div>
+
+        <nav>
+            <a href="index-zh.html">首頁</a>
+            <a href="coaching-zh.html">私人教學</a>
+            <a href="coaches-zh.html">教練團隊</a>
+            <a href="faq-zh.html">常見問題</a>
+            <a href="contact-zh.html">聯絡我們</a>
+        </nav>
+
+        <!-- Language switch -->
+        <select id="lang-switch">
+            <option value="coaches-zh.html" selected>中文</option>
+            <option value="coaches.html">EN</option>
+        </select>
+
+    </div>
+</header>
+
+
+<!-- ================= PAGE BAND ================= -->
+<section class="page-band">
+    <div class="container">
+        <h1 class="page-title">教練團隊</h1>
+    </div>
+</section>
+
+
+<!-- ================= COACHES SECTION ================= -->
+<section class="coaches">
+  <div class="container">
+
+    <div class="coach-grid">
+
+      <!-- Coach 1 -->
+      <article class="coach-card">
+        <div class="coach-top">
+          <div class="coach-name">
+            <h3>Chak</h3>
+            <div class="coach-role">首席教練</div>
+          </div>
+
+          <div class="coach-tags">
+            <span class="tag">GTO</span>
+            <span class="tag">現金局</span>
+          </div>
+        </div>
+
+        <p class="coach-desc">
+          專注於建立紮實的理論基礎與實戰決策能力。適合希望系統性理解 GTO，
+          並在高壓環境下提升臨場判斷與執行力的玩家。
+        </p>
+
+        <!-- Optional graph
+        <div class="coach-graph">
+            <img src="graph.jpg" alt="Chak results">
+        </div>
+        -->
+      </article>
+
+
+      <!-- Coach 2 -->
+      <article class="coach-card">
+        <div class="coach-top">
+          <div class="coach-name">
+            <h3>Alan</h3>
+            <div class="coach-role">MDA 教練</div>
+          </div>
+
+          <div class="coach-tags">
+            <span class="tag">MDA</span>
+            <span class="tag">GG Rush & Cash</span>
+          </div>
+        </div>
+
+        <p class="coach-desc">
+          專長於大數據分析（Mass Data Analysis）與玩家池傾向研究，
+          針對 GG Rush & Cash 提供實戰導向的剝削策略。
+          適合希望利用真實數據提升盈利能力的玩家。
+        </p>
+
+        <div class="coach-graph">
+            <img src="graph.jpg" alt="Alan results">
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>聯絡方式</p>
+
+    <div class="socials">
+        <a href="mailto:alanchak248@gmail.com">
+            <img src="gmail.png" alt="Email">
+        </a>
+
+        <a href="https://www.instagram.com/chakpoker" target="_blank">
+            <img src="ig.png" alt="Instagram">
+        </a>
+
+        <a href="https://discord.gg/TTy4HZmEzC" target="_blank">
+            <img src="discord.png" alt="Discord">
+        </a>
+
+        <a href="https://youtu.be/Nzc8gJpHi-s" target="_blank">
+            <img src="youtube.png" alt="YouTube">
+        </a>
+    </div>
+</footer>
+
+
+<!-- Language switch script -->
+<script>
+document.getElementById("lang-switch").addEventListener("change", function () {
+    window.location.href = this.value;
+});
+</script>
+
+</body>
+</html>

@@ -1,1 +1,1 @@
-Pokerwebsite for Chakpoker.
+Pokerwebsite for Chakpoker
